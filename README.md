@@ -24,7 +24,7 @@ This repository sets up a lightweight **K3s Kubernetes cluster** using Terraform
 ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
-
+```
 
 
 ### 2. Deploy the Control-Plane
@@ -36,7 +36,7 @@ This repository sets up a lightweight **K3s Kubernetes cluster** using Terraform
    terraform init
    terraform plan
    terraform apply
-
+```
 
 
   - This will spin up the control-plane node and generate a k3s-token.txt file required for worker nodes to join the cluster.
@@ -68,7 +68,7 @@ Paste the token in the appropriate section (look for a placeholder like {{YOUR-K
    terraform init
    terraform plan
    terraform apply
-
+```
 
 
 This will provision the worker nodes and join them to the K3s cluster.
