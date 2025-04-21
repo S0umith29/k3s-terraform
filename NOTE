@@ -1,0 +1,3 @@
+-> Apply the control-plane directory first and then the workers directly
+-> Make sure to copy and put the k3s.yaml and k3s-token into the worker nodes
+
